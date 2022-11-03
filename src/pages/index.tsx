@@ -1,7 +1,13 @@
+import { Meta } from "../layout/Meta";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Template</h1>
-    </div>
+    <>
+      <Meta
+        title="Chili Peppers Pizzaria"
+        description="Bem-vindos a melhor pizzaria da sua região!"
+      />
+      <h1>Chili Peppers Pizzaria</h1>
+    </>
   );
 }
